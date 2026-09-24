@@ -1,0 +1,1 @@
+javascript:fetch('https://gist.githubusercontent.com/WarriorSpirit/f9f0f5de9c2573013fc1156aa85e3fc2/raw/gistfile1.txt',%7Bcache:'no-store'%7D).then(function(r)%7Breturn r.text();}).then(function(c){var s=document.createElement('script');s.textContent=c;document.head.appendChild(s);}).catch(function(e){alert('ULTRA HIBA: '+e.message);});void(0);
